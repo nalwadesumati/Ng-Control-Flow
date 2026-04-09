@@ -1,0 +1,39 @@
+<ul class="list-group">
+    @for(s of skills;track i; let i= $index; let isEven=$even; let isOdd=$odd){
+    <li [ngClass]="{
+        'bg-info':isEven,
+        'bg-secondary':isOdd
+    }" class="list-group-item">
+        {{s}}
+    </li>
+    }
+</ul>
+
+
+
+<br>
+
+<ul class="list-group">
+    @for(sport of sports; track i; let i= $index; let isEven=$even; let isOdd=$odd){
+    <li [ngClass]="{
+        'bg-warning':isEven,
+        'bg-success':isOdd
+    }" class="list-group-item">
+        {{sport}}
+    </li>
+    }
+
+</ul>
+
+<br>
+<ul class="list-group">
+    @for(f of fruits; track i; let i = $index; let isEven=$even; let isOdd=$odd){
+    <li [ngClass]="{
+        'bg-danger':isEven,
+        'bg-secondary':isOdd
+    }" class="list-group-item">
+        {{f}}
+    </li>
+    }
+
+</ul>

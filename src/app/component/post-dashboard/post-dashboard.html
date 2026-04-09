@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="row">
+        @for (p of postData; track p.id) {
+        <div class="col-md-4 mb-5">
+            <app-post-card [post]="p"></app-post-card>
+        </div>
+        }
+    </div>
+</div>
