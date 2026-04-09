@@ -1,5 +1,16 @@
+mat-card-header {
+  width: 100%;
+}
+
+mat-card-title {
+  width: 100%;
+  min-width: 0;
+}
+
 .post-title {
-  white-space: nowrap;
+  display: block;
+  width: 100%;
   overflow: hidden;
+  white-space: nowrap;
   text-overflow: ellipsis;
 }

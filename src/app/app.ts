@@ -7,6 +7,7 @@ import { Ipost } from './models/posts';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
   imports: [List, Students, PostDashboard],
   templateUrl: './app.html',
   styleUrl: './app.scss',

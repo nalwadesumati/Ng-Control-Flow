@@ -35,6 +35,7 @@
     "@angular/ssr": "^20.3.22",
     "bootstrap": "^4.6.2",
     "express": "^5.1.0",
+    "ng-for-app": "file:",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
   },
